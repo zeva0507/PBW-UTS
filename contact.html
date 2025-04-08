@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="Abid Zeva Ghozali_Formal (1).jpg" alt="Profile" class="profile-pic">
+            <span class="logo">My portfolio</span>
+        </div>
+        <div class="logo"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="prestasi.html">Prestasi</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="contact-info">
+        <h2>Contact</h2>
+        <p>JUntuk lebih lanjut bisa menghubungi melalui informasi di bawah ini.</p>
+        <div class="info">
+            <p><strong>Nama:</strong> Abid Zeva Ghozali</p>
+            <p><strong>Email:</strong> abidzeva7@gmail.com</p>
+            <p><strong>No. Telepon:</strong> +62 821-2531-3800</p>
+            <p><strong>Alamat:</strong> Cikarang Barat, Bekasi, Jawa Barat</p>
+        </div>
+    </section>
+    <section class="contact-form">
+        <h3>Contact Me</h3>
+        <p>Silakan isi formulir di bawah ini untuk menghubungi saya secara langsung.</p>
+        <form action="#" method="post">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter email" required>
+            
+            <div class="name-fields">
+                <div>
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="Enter Name" required>
+                </div>
+                <div>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Enter Name" required>
+                </div>
+            </div>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+            
+            <button type="submit" class="btn">Send</button>
+        </form>
+        <br>
+        <button onclick="location.href='index.html'" class="btn back-home">Kembali ke Beranda</button>
+    </section>
+    
+</body>
+</html>
